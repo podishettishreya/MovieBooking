@@ -1,0 +1,48 @@
+{
+  "bookingList": [
+    {
+      "bookingName": "shreya ",
+      "bookingEmail": "shreya@abc.com",
+      "date": "2022-10-27T18:30:00.000Z",
+      "time": "1:30 PM",
+      "showTime": 4,
+      "id": 1
+    },
+    {
+      "bookingName": "anjali",
+      "bookingEmail": "anjali@abc.com",
+      "date": "2022-10-27T18:30:00.000Z",
+      "time": "9:00 AM",
+      "showTime": 4,
+      "id": 2
+    },
+    {
+      "bookingName": "preeti",
+      "bookingEmail": "preeti@xyz.com",
+      "date": "2022-10-20T18:30:00.000Z",
+      "time": "7:45 PM",
+      "showTime": 7,
+      "id": 3,
+      "available": 100
+    },
+    {
+      "bookingName": "john",
+      "bookingEmail": "john@example.com",
+      "date": "2022-10-21T18:30:00.000Z",
+      "time": "1:30 PM",
+      "showTime": 6,
+      "id": 6,
+      "available": 100
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

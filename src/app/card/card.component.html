@@ -1,0 +1,11 @@
+<div class="card" class="cb" >
+  <div class="card-img">
+    <img class="card-img-top" [src]="film.poster" alt="Unavailable">
+  </div>
+  <div class="card-body" >
+    <h5 class="card-title">{{film.name}}</h5>
+    <p class="card-text">{{film.des}}.</p>
+    <button class="card-button" mat-raised-button color="warn" (click)="openDialog()">BOOK</button> 
+  </div>
+</div>
+

@@ -1,0 +1,13 @@
+
+    <div class="container" style=" padding-top: 3vh; display: flex; justify-content:space-around; flex-wrap: nowrap; width: 100vw;">
+        <ng-container *ngFor="let singleFilm of films">
+            <div class="movie" >
+            <img class="mvimg" [src]="singleFilm.poster" [alt]="singleFilm.name" />
+            <p class="movie-info"> {{singleFilm.name}}</p>
+            <p class="movie-info">{{singleFilm.genre}}</p>
+            <p class="movie-info"> {{ singleFilm.amount| currency:'INR' }} </p> 
+            <button class="btn btn-danger btn-sm" (click)="addToCard(singleFilm.id)">More Info </button>
+            </div>
+        </ng-container>
+    </div>
+
